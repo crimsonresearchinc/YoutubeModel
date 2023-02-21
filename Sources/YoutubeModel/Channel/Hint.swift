@@ -6,6 +6,7 @@
 
 import Foundation
 
+@frozen
 public struct Hint: Codable, Hashable, Sendable {
     public let property: String?
     public let value: String?

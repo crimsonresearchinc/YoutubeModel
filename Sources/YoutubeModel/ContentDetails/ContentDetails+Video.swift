@@ -7,6 +7,7 @@
 import Foundation
 
 public extension ContentDetails {
+    @frozen
     struct Video: Codable, Hashable, Sendable {
         public let definition: String
         public let duration: String

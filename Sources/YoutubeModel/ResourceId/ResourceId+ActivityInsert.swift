@@ -7,6 +7,7 @@
 import Foundation
 
 public extension ResourceId {
+    @frozen
     struct ActivityInsert: Codable, Hashable, Sendable {
         public let kind: String?
         public let channelId: String?

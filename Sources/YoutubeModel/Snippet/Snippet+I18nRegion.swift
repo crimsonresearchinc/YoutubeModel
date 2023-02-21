@@ -7,6 +7,7 @@
 import Foundation
 
 public extension Snippet {
+    @frozen
     struct I18nRegion: Codable, Hashable, Sendable {
         public let gl: String
         public let name: String

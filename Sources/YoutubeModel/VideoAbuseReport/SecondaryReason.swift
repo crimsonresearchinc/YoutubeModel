@@ -6,6 +6,7 @@
 
 import Foundation
 
+@frozen
 public struct SecondaryReason: Codable, Hashable, Identifiable, Sendable {
     public let id: String
     public let label: String

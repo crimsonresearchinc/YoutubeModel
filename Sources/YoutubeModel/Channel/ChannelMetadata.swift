@@ -6,6 +6,7 @@
 
 import Foundation
 
+@frozen
 public struct ChannelMetadata: Codable, Hashable, Sendable {
     public let defaultTab: String?
     public let detail: String?

@@ -6,6 +6,7 @@
 
 import Foundation
 
+@frozen
 public struct Localized: Codable, Hashable, Sendable {
     public let title: String
     public let detail: String

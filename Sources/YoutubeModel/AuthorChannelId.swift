@@ -6,6 +6,7 @@
 
 import Foundation
 
+@frozen
 public struct AuthorChannelId: Codable, Hashable, Sendable {
     public let value: String
 }

@@ -7,6 +7,7 @@
 import Foundation
 
 public extension Snippet {
+    @frozen
     struct Comment: Codable, Hashable, Sendable {
         public let authorChannelId: AuthorChannelId
         public let authorChannelURL: String

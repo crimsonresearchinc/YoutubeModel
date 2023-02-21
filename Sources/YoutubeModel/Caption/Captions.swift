@@ -6,6 +6,7 @@
 
 import Foundation
 
+@frozen
 public struct Captions: Codable, Hashable, Sendable {
     public let etag: String
     public let items: [Caption]

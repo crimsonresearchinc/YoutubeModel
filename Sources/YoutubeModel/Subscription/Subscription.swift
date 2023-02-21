@@ -6,6 +6,7 @@
 
 import Foundation
 
+@frozen
 public struct Subscription: Codable, Hashable, Identifiable, Sendable {
     public let id: String
     public let contentDetails: ContentDetails.Subscription

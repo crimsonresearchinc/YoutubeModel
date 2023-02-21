@@ -7,6 +7,7 @@
 import Foundation
 
 public extension ContentDetails {
+    @frozen
     struct Channel: Codable, Hashable, Sendable {
         public let relatedPlaylists: RelatedPlaylists
     }

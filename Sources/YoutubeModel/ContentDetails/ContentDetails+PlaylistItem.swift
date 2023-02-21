@@ -7,6 +7,7 @@
 import Foundation
 
 public extension ContentDetails {
+    @frozen
     struct PlaylistItem: Codable, Hashable, Identifiable, Sendable {
         public let videoId: String
         public let videoPublishedAt: String

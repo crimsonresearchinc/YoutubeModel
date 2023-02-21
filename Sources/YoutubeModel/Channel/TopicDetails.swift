@@ -6,6 +6,7 @@
 
 import Foundation
 
+@frozen
 public struct TopicDetails: Codable, Hashable, Sendable {
     public let topicCategories: [String]?
     public let topicIds: [String]?

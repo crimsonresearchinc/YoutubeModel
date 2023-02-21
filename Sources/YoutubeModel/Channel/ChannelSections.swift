@@ -6,6 +6,7 @@
 
 import Foundation
 
+@frozen
 public struct ChannelSections: Codable, Hashable, Sendable {
     public let etag: String
     public let items: [ChannelSection]

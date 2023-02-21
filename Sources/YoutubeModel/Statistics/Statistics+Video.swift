@@ -7,6 +7,7 @@
 import Foundation
 
 public extension Statistics {
+    @frozen
     struct Video: Codable, Hashable, Sendable {
         public let dislikeCount: String?
         public let likeCount: String?

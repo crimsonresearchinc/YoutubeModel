@@ -7,6 +7,7 @@
 import Foundation
 
 public extension Thumbnails {
+    @frozen
     struct Video: Codable, Hashable, Sendable {
         public let `default`: Thumbnail
         public let medium: Thumbnail

@@ -6,6 +6,7 @@
 
 import Foundation
 
+@frozen
 public struct ChannelSection: Codable, Hashable, Identifiable, Sendable {
     public let id: String
     public let contentDetails: ContentDetails.ChannelSection?

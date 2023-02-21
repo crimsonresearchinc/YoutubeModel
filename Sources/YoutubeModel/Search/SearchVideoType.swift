@@ -6,13 +6,14 @@
 
 import Foundation
 
+@frozen
 public enum SearchVideoType: String, Hashable, CaseIterable, Sendable {
     /// Return all videos.
     case any
-    
+
     /// Only retrieve episodes of shows.
     case episode
-    
+
     /// Only retrieve movies.
     case movie
 }

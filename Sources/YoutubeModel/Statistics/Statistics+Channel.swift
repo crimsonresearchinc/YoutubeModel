@@ -7,6 +7,7 @@
 import Foundation
 
 public extension Statistics {
+    @frozen
     struct Channel: Codable, Hashable, Sendable {
         public let commentCount: String?
         public let hiddenSubscriberCount: Bool?

@@ -7,6 +7,7 @@
 import Foundation
 
 public extension ContentDetails {
+    @frozen
     struct Subscription: Codable, Hashable, Sendable {
         public let activityType: String
         public let newItemCount: Int

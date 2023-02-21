@@ -6,6 +6,7 @@
 
 import Foundation
 
+@frozen
 public struct Channel: Codable, Hashable, Identifiable, Sendable {
     public let id: String
     public let brandingSettings: BrandingSettings?

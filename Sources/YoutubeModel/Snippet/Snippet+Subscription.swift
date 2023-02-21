@@ -7,6 +7,7 @@
 import Foundation
 
 public extension Snippet {
+    @frozen
     struct Subscription: Codable, Hashable, Identifiable, Sendable {
         public let channelId: String
         public let detail: String

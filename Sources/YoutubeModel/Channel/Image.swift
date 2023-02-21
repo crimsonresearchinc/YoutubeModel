@@ -6,6 +6,7 @@
 
 import Foundation
 
+@frozen
 public struct Image: Codable, Hashable, Sendable {
     public let bannerImageURL: String?
     public let bannerMobileExtraHdImageURL: String?

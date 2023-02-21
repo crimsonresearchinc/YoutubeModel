@@ -7,6 +7,7 @@
 import Foundation
 
 public extension Snippet {
+    @frozen
     struct ChannelSection: Codable, Hashable, Identifiable, Sendable {
         public let channelId: String
         public let position: Int

@@ -6,6 +6,7 @@
 
 import Foundation
 
+@frozen
 public enum VideoCategoryId: Int, Hashable, CaseIterable, Sendable {
     case filmAndAnimation       = 1
     case autosAndVehicles       = 2

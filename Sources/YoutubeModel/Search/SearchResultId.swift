@@ -6,6 +6,7 @@
 
 import Foundation
 
+@frozen
 public struct SearchResultId: Codable, Hashable, Sendable {
     public let channelId: String?
     public let kind: String

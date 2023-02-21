@@ -7,6 +7,7 @@
 import Foundation
 
 public extension Snippet {
+    @frozen
     struct PlaylistItem: Codable, Hashable, Sendable {
         public let channelId: String
         public let channelTitle: String

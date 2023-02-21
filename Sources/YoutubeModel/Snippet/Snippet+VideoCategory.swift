@@ -7,6 +7,7 @@
 import Foundation
 
 public extension Snippet {
+    @frozen
     struct VideoCategory: Codable, Hashable, Sendable {
         public let assignable: Bool
         public let channelId: String

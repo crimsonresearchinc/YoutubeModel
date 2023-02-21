@@ -7,6 +7,7 @@
 
 import Foundation
 
+@frozen
 public struct SearchResults: Codable, Hashable, Sendable {
     public let etag: String
     public let items: [SearchResult]

@@ -6,6 +6,7 @@
 
 import Foundation
 
+@frozen
 public struct BrandingSettings: Codable, Hashable, Sendable {
     public let channelMetadata: ChannelMetadata
     public let hints: [Hint]?

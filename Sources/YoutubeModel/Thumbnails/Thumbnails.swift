@@ -6,4 +6,5 @@
 
 import Foundation
 
+@frozen
 public enum Thumbnails: Hashable, Sendable {}

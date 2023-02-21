@@ -7,6 +7,7 @@
 import Foundation
 
 public extension Thumbnails {
+    @frozen
     struct Thumbnail: Codable, Hashable, Sendable {
         public let url: String?
         public let height: Int?

@@ -6,6 +6,7 @@
 
 import Foundation
 
+@frozen
 public struct CommentReplies: Codable, Hashable, Sendable {
     public let comments: [Comment]
 }

@@ -7,7 +7,8 @@
 import Foundation
 
 public extension Snippet {
-    struct Channel: Codable, Hashable, Sendable {
+    @frozen
+   struct Channel: Codable, Hashable, Sendable {
         public let customURL: String?
         public let detail: String
         public let localized: Localized

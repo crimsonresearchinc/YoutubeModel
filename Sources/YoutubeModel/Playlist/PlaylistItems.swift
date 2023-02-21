@@ -6,6 +6,7 @@
 
 import Foundation
 
+@frozen
 public struct PlaylistItems: Codable {
     public let etag: String
     public let items: [PlaylistItem]

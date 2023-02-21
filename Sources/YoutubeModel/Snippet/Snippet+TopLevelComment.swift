@@ -7,6 +7,7 @@
 import Foundation
 
 public extension Snippet {
+    @frozen
     struct TopLevelComment: Codable, Hashable, Identifiable, Sendable {
         public let etag: String
         public let id: String

@@ -6,6 +6,7 @@
 
 import Foundation
 
+@frozen
 public struct PageInfo: Codable, Hashable, Sendable {
     public let resultsPerPage: Int
     public let totalResults: Int

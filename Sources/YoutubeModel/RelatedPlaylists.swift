@@ -6,6 +6,7 @@
 
 import Foundation
 
+@frozen
 public struct RelatedPlaylists: Codable, Hashable, Sendable {
     public let uploads: String?
     public let watchHistory: String?

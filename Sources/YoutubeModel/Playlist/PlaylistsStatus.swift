@@ -6,6 +6,7 @@
 
 import Foundation
 
+@frozen
 public struct PlaylistsStatus: Codable, Hashable, Sendable {
     public let privacyStatus: String
 }

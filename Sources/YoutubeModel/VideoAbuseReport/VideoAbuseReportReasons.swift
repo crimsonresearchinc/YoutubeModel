@@ -6,6 +6,7 @@
 
 import Foundation
 
+@frozen
 public struct VideoAbuseReportReasons: Codable, Hashable, Sendable {
     public let etag: String
     public let items: [VideoAbuseReportReason]

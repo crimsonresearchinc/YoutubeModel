@@ -6,6 +6,7 @@
 
 import Foundation
 
+@frozen
 public struct Subscriptions: Codable, Hashable, Sendable {
     public let etag: String
     public let items: [Subscription]

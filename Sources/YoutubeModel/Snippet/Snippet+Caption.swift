@@ -7,6 +7,7 @@
 import Foundation
 
 public extension Snippet {
+    @frozen
     struct Caption: Codable, Hashable, Identifiable, Sendable {
         public let audioTrackType: String
         public let isAutoSynced: Bool

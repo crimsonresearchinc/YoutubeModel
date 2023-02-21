@@ -7,6 +7,7 @@
 import Foundation
 
 public extension ResourceId {
+    @frozen
     struct PlaylistItem: Codable, Hashable, Identifiable, Sendable {
         public let kind: String
         public let videoId: String

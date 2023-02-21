@@ -7,6 +7,7 @@
 import Foundation
 
 public extension ContentDetails {
+    @frozen
     struct Activity: Codable, Hashable, Sendable {
         public let upload: Upload?
     }

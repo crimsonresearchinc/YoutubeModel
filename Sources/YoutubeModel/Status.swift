@@ -6,6 +6,7 @@
 
 import Foundation
 
+@frozen
 public struct Status: Codable, Hashable, Sendable {
     public let license: String
     public let publicStatsViewable: Bool

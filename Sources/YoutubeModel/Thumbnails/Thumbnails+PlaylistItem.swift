@@ -7,6 +7,7 @@
 import Foundation
 
 public extension Thumbnails {
+    @frozen
     struct PlaylistItem: Codable, Hashable, Sendable {
         public let high: Thumbnail
         public let medium: Thumbnail

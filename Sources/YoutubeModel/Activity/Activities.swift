@@ -6,6 +6,7 @@
 
 import Foundation
 
+@frozen
 public struct Activities: Codable, Hashable, Sendable {
     public let items: [Activity]
     public let nextPageToken: String?
