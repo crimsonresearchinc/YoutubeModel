@@ -6,6 +6,8 @@
 
 import Foundation
 
+public typealias Videos = ItemResponse<Video>
+
 @frozen
 public struct Video: Codable, Hashable, Identifiable, Sendable {
     public let id: String
