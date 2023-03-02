@@ -8,6 +8,6 @@ import Foundation
 
 @frozen
 public struct RegionRestriction: ItemsResponseType {
-    public let allowed: [String]
+    public let allowed: [String]?
     public let blocked: [String]?
 }

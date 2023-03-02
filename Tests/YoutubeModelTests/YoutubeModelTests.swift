@@ -18,7 +18,7 @@ final class YoutubeModelTests: XCTestCase {
     func testVidoesResponseDecode() throws {
         let data = try Bundle.module.data(forResource: "VideosResponse", withExtension: "json")
         let videos = try decoder.decode(Videos.self, from: data)
-        XCTAssertEqual(videos.items.count, 10)
+        XCTAssertEqual(videos.items.count, 20)
     }
     
     func testErrorResponseDecode() throws {
