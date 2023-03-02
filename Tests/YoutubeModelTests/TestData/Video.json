@@ -1,0 +1,78 @@
+{
+  "kind": "youtube#video",
+  "etag": "SOQ7sWj86nwfBcPuQFzexCfVEQ4",
+  "id": "Hl1zEzVUV7w",
+  "snippet": {
+    "publishedAt": "2023-03-02T02:28:00Z",
+    "channelId": "UC5WjFrtBdufl6CZojX3D8dQ",
+    "title": "2023 Investor Day",
+    "description": "We plan to host Tesla's 2023 Investor Day on March 1, 2023. Our investors will be able to see our most advanced production line as well as discuss long term expansion plans, generation 3 platform, capital allocation and other subjects with our leadership team.\n\nLearn more: https://ir.tesla.com/press-release/tesla-announces-date-2023-investor-day",
+    "thumbnails": {
+      "default": {
+        "url": "https://i.ytimg.com/vi/Hl1zEzVUV7w/default.jpg",
+        "width": 120,
+        "height": 90
+      },
+      "medium": {
+        "url": "https://i.ytimg.com/vi/Hl1zEzVUV7w/mqdefault.jpg",
+        "width": 320,
+        "height": 180
+      },
+      "high": {
+        "url": "https://i.ytimg.com/vi/Hl1zEzVUV7w/hqdefault.jpg",
+        "width": 480,
+        "height": 360
+      },
+      "standard": {
+        "url": "https://i.ytimg.com/vi/Hl1zEzVUV7w/sddefault.jpg",
+        "width": 640,
+        "height": 480
+      },
+      "maxres": {
+        "url": "https://i.ytimg.com/vi/Hl1zEzVUV7w/maxresdefault.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "channelTitle": "Tesla",
+    "tags": [
+      "tesla",
+      "model s",
+      "model x",
+      "model 3",
+      "elon musk",
+      "AI",
+      "Artificial Intelligence",
+      "Dojo",
+      "model y",
+      "Tesla Bot",
+      "Tesla Robot",
+      "Tesla Optimus",
+      "Elon robot",
+      "Tesla AI",
+      "humanoid robot"
+    ],
+    "categoryId": "2",
+    "liveBroadcastContent": "none",
+    "defaultLanguage": "en",
+    "localized": {
+      "title": "2023 Investor Day",
+      "description": "We plan to host Tesla's 2023 Investor Day on March 1, 2023. Our investors will be able to see our most advanced production line as well as discuss long term expansion plans, generation 3 platform, capital allocation and other subjects with our leadership team.\n\nLearn more: https://ir.tesla.com/press-release/tesla-announces-date-2023-investor-day"
+    },
+    "defaultAudioLanguage": "en"
+  },
+  "contentDetails": {
+    "duration": "PT4H4M55S",
+    "dimension": "2d",
+    "definition": "hd",
+    "caption": "false",
+    "licensedContent": false,
+    "contentRating": {},
+    "projection": "rectangular"
+  },
+  "liveStreamingDetails": {
+    "actualStartTime": "2023-03-01T20:58:00Z",
+    "actualEndTime": "2023-03-02T01:02:43Z",
+    "scheduledStartTime": "2023-03-01T21:00:00Z"
+  }
+}

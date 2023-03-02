@@ -8,6 +8,15 @@
         "revision" : "f69b412a765396d44dc9f4788a5b79919c1ca9e3",
         "version" : "0.2.2"
       }
+    },
+    {
+      "identity" : "webservice",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/wmalloc/WebService.git",
+      "state" : {
+        "revision" : "20278d16c2d19f313a9c8c1ee19bdd568b5016a0",
+        "version" : "0.6.1"
+      }
     }
   ],
   "version" : 2

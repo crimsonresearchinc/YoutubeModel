@@ -11,4 +11,10 @@ public struct Captions: Codable, Hashable, Sendable {
     public let etag: String
     public let items: [Caption]
     public let kind: String
+
+    public init(etag: String, items: [Caption], kind: String) {
+        self.etag = etag
+        self.items = items
+        self.kind = kind
+    }
 }

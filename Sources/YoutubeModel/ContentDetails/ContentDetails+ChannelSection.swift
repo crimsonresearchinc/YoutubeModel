@@ -15,8 +15,6 @@ public extension ContentDetails {
 
 extension ContentDetails.ChannelSection: CustomStringConvertible {
     public var description: String {
-        """
-            playlists = \(playlists)
-        """
+        "playlists = \(playlists)"
     }
 }

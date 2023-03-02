@@ -16,25 +16,38 @@ public extension Snippet {
         public let localized: Localized
         public let tags: [String]?
         public let liveBroadcastContent: String
-        public let publishedAt: String
+        public let publishedAt: Date
         public let thumbnails: Thumbnails.Video
         public let title: String
+
+        private enum CodingKeys: String, CodingKey {
+            case detail = "description"
+            case channelId
+            case categoryId
+            case channelTitle
+            case localized
+            case tags
+            case liveBroadcastContent
+            case publishedAt
+            case thumbnails
+            case title
+        }
     }
 }
 
 extension Snippet.Video: CustomStringConvertible {
     public var description: String {
         """
-                detail = \(detail)
-                channelId = \(channelId)
-                categoryId = \(categoryId)
-                channelTitle = \(channelTitle)
-                localized = \(localized)
-                tags = \(String(describing: tags))
-                liveBroadcastContent = \(liveBroadcastContent)
-                publishedAt = \(publishedAt)
-                thumbnails = \(thumbnails)
-                title = \(title)
+            description = \(detail)
+            channelId = \(channelId)
+            categoryId = \(categoryId)
+            channelTitle = \(channelTitle)
+            localized = \(localized)
+            tags = \(String(describing: tags))
+            liveBroadcastContent = \(liveBroadcastContent)
+            publishedAt = \(publishedAt)
+            thumbnails = \(thumbnails)
+            title = \(title)
         """
     }
 }

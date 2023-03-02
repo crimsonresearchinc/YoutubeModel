@@ -15,4 +15,5 @@ public struct Video: Codable, Hashable, Identifiable, Sendable {
     public let statistics: Statistics.Video?
     public let snippet: Snippet.Video?
     public let status: Status?
+    public let liveStreamingDetails: LiveStreamingDetails?
 }
