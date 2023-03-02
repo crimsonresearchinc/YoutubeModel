@@ -7,7 +7,7 @@
 import Foundation
 
 @frozen
-public struct Status: Codable, Hashable, Sendable {
+public struct Status: ItemsResponseType {
     public let license: String
     public let publicStatsViewable: Bool
     public let embeddable: Bool

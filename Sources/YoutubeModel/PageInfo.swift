@@ -7,7 +7,7 @@
 import Foundation
 
 @frozen
-public struct PageInfo: Codable, Hashable, Sendable {
+public struct PageInfo: ItemsResponseType {
     public let resultsPerPage: Int
     public let totalResults: Int
 

@@ -7,7 +7,7 @@
 import Foundation
 
 @frozen
-public struct LiveStreamingDetails: Codable, Hashable, Sendable {
+public struct LiveStreamingDetails: ItemsResponseType {
     public let actualStartTime: Date
     public let actualEndTime: Date
     public let scheduledStartTime: Date

@@ -7,7 +7,7 @@
 import Foundation
 
 @frozen
-public struct Upload: Codable, Hashable, Identifiable, Sendable {
+public struct Upload: ItemsResponseType, Identifiable {
     public let videoId: String
 
     public var id: String {

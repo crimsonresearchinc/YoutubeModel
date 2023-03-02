@@ -9,7 +9,7 @@ import Foundation
 public typealias Videos = ItemsResponse<Video>
 
 @frozen
-public struct Video: Codable, Hashable, Identifiable, Sendable {
+public struct Video: ItemsResponseType, Identifiable {
     public let id: String
     public let etag: String
     public let kind: String

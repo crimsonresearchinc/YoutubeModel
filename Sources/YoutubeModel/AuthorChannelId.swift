@@ -7,6 +7,6 @@
 import Foundation
 
 @frozen
-public struct AuthorChannelId: Codable, Hashable, Sendable {
+public struct AuthorChannelId: ItemsResponseType {
     public let value: String
 }

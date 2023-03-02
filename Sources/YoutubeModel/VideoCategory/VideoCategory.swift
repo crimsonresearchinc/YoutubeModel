@@ -6,8 +6,10 @@
 
 import Foundation
 
+public typealias VideoCategories = ItemsResponse<VideoCategory>
+
 @frozen
-public struct VideoCategory: Codable, Hashable, Identifiable, Sendable {
+public struct VideoCategory: ItemsResponseType, Identifiable {
     public let id: String
     public let etag: String
     public let kind: String
