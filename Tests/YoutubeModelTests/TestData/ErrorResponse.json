@@ -1,0 +1,15 @@
+{
+  "error": {
+    "code": 400,
+    "message": "Incompatible parameters specified in the request: chart, myRating",
+    "errors": [
+      {
+        "message": "Incompatible parameters specified in the request: chart, myRating",
+        "domain": "youtube.parameter",
+        "reason": "incompatibleParameters",
+        "location": "parameters.",
+        "locationType": "other"
+      }
+    ]
+  }
+}
