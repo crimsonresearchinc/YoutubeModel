@@ -7,7 +7,7 @@
 import Foundation
 
 @frozen
-public struct ItemResponse<ItemType: Codable & Hashable & Sendable>: Codable, Hashable, Sendable {
+public struct ItemsResponse<ItemType: Codable & Hashable & Sendable>: Codable, Hashable, Sendable {
     public let etag: String
     public let kind: String
     public let items: [ItemType]

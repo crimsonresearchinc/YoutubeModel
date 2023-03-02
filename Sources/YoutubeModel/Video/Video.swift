@@ -6,7 +6,7 @@
 
 import Foundation
 
-public typealias Videos = ItemResponse<Video>
+public typealias Videos = ItemsResponse<Video>
 
 @frozen
 public struct Video: Codable, Hashable, Identifiable, Sendable {
