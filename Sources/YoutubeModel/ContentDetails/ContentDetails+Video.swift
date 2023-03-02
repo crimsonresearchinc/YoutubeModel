@@ -15,6 +15,8 @@ public extension ContentDetails {
         public let dimension: String
         public let licensedContent: Bool
         public let projection: String
+        public let contentRating: ContentRating
+        public let regionRestriction: RegionRestriction?
     }
 }
 
@@ -27,6 +29,8 @@ extension ContentDetails.Video: CustomStringConvertible {
             dimension = \(dimension)
             licensedContent = \(licensedContent)
             projection = \(projection)
+            contentRating = \(contentRating)
+            regionRestriction = \(String(describing: regionRestriction))
         """
     }
 }

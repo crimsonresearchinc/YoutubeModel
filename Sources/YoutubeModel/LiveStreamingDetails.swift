@@ -11,4 +11,7 @@ public struct LiveStreamingDetails: ItemsResponseType {
     public let actualStartTime: Date
     public let actualEndTime: Date
     public let scheduledStartTime: Date
+    public let scheduledEndTime: Date?
+    public let concurrentViewers: UInt64?
+    public let activeLiveChatId: String?
 }
