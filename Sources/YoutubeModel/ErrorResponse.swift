@@ -8,5 +8,5 @@ import Foundation
 
 @frozen
 public struct ErrorResponse: ItemsResponseType {
-    let error: ResponseError
+    public let error: ResponseError
 }
