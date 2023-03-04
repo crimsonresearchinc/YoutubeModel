@@ -7,7 +7,7 @@
 import Foundation
 
 @frozen
-public struct ServerError: ItemsResponseType {
+public struct ServerError: ItemsResponseType, LocalizedError {
     public let message: String
     public let domain: String
     public let reason: String
@@ -20,5 +20,21 @@ public struct ServerError: ItemsResponseType {
         self.reason = reason
         self.location = location
         self.locationType = locationType
+    }
+
+    public var errorDescription: String? {
+        message
+    }
+
+    public var failureReason: String? {
+        reason
+    }
+
+    public var recoverySuggestion: String? {
+        location
+    }
+
+    public var helpAnchor: String? {
+        locationType
     }
 }
