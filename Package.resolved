@@ -1,12 +1,12 @@
 {
   "pins" : [
     {
-      "identity" : "swiftlintplugin",
+      "identity" : "urlrequestable",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/lukepistrol/SwiftLintPlugin.git",
+      "location" : "https://github.com/wmalloc/URLRequestable.git",
       "state" : {
-        "revision" : "f69b412a765396d44dc9f4788a5b79919c1ca9e3",
-        "version" : "0.2.2"
+        "revision" : "750dcb9eec2c53a40d4bf04f2ce976062dab8168",
+        "version" : "0.0.3"
       }
     },
     {
@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/wmalloc/WebService.git",
       "state" : {
-        "revision" : "20278d16c2d19f313a9c8c1ee19bdd568b5016a0",
-        "version" : "0.6.1"
+        "revision" : "afa823fea88369347a0f531f461861ff13cb35fe",
+        "version" : "0.7.0"
       }
     }
   ],
