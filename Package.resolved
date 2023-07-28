@@ -1,12 +1,21 @@
 {
   "pins" : [
     {
-      "identity" : "swiftlintplugin",
+      "identity" : "swift-http-types",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/lukepistrol/SwiftLintPlugin.git",
+      "location" : "https://github.com/apple/swift-http-types.git",
       "state" : {
-        "revision" : "f69b412a765396d44dc9f4788a5b79919c1ca9e3",
-        "version" : "0.2.2"
+        "revision" : "6861b096b0bd0cc339b9c5d34d55c665c7490703",
+        "version" : "0.2.0"
+      }
+    },
+    {
+      "identity" : "urlrequestable",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/wmalloc/URLRequestable.git",
+      "state" : {
+        "revision" : "6974f6f76d74209b661a9e3293c08e963876f0eb",
+        "version" : "0.4.0"
       }
     },
     {
@@ -14,8 +23,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/wmalloc/WebService.git",
       "state" : {
-        "revision" : "20278d16c2d19f313a9c8c1ee19bdd568b5016a0",
-        "version" : "0.6.1"
+        "revision" : "8e9f75c4a87f6f94fd70612306a47812a9a15a1c",
+        "version" : "0.8.5"
       }
     }
   ],
